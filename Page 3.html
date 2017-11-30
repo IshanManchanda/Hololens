@@ -1,54 +1,98 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset = "utf-8">
-		<meta name = "viewport" content = "width=device-width, initial-scale=1">
-		<title>Placeholder</title>
+		<meta charset="utf-8">
+		<title>Microsoft Hololens</title>
 
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="Resources/Images/favicon.ico">
 		<link rel="icon" sizes="16x16 32x32 64x64" href="Resources/Images/favicon.ico">
 
 		<!-- CSS Files -->
-		<link rel = "stylesheet" href = "Resources/Fonts.css" >
-		<link rel = "stylesheet" href = "Resources/Materialize.css">
-		<link rel = "stylesheet" href = "Resources/Main.css">
-
-		<!-- JS Files -->
-		<script src = "Resources/JQuery.js"></script>
-		<script src = "Resources/Materialize.js"></script>
-		<script src = "Resources/Main.js"></script>
-
+		<link rel="stylesheet" href="Resources/Fonts.css">
+		<link rel="stylesheet" href="Resources/Common.css">
+		<link rel="stylesheet" href="Resources/Page 3.css">
 	</head>
 
 	<body>
 		<!-- Nav Bar -->
 		<nav>
-			<div class = "nav-wrapper">
+			<div id="nav-wrapper">
 				<!-- Microsoft Logo -->
-				<a href="#!" class="brand-logo" id="nav-logo"><img src="Resources/Images/Logo.png" width="75%"></a>
-				<!-- For Mobile Browsers -->
-				<a href = "#" data-activates = "mobile-demo" class = "button-collapse"><i class = "large material-icons cyan-text">menu</i></a>
+				<a href="#!" id="nav-logo"><img src="Resources/Images/Logo.png" width="75%"></a>
 
-				<ul class = "right hide-on-med-and-down" id="nav-list">
-					<li class="nav-sub">		<a href = "Page 1.html" class="nav-link">	Hololens			</a></li>
-					<li class="nav-sub">		<a href = "Page 2.html" class="nav-link">	Why Hololens		</a></li>
-					<li class="nav-sub active">	<a href = "Page 3.html" class="nav-link">	Hardware			</a></li>
-					<li class="nav-sub">		<a href = "Page 4.html" class="nav-link">	Experience Hololens	</a></li>
-					<li class="nav-sub">		<a href = "Page 5.html" class="nav-link">	Get Hololens		</a></li>
-				</ul>
-
-				<!-- Mobile Side Nav Bar -->
-				<ul class = "side-nav" id = "mobile-demo">
-					<li><a href = "Page 1.html">	Hololens			</a></li>
-					<li><a href = "Page 2.html">	Why Hololens		</a></li>
-					<li><a href = "Page 3.html">	Hardware			</a></li>
-					<li><a href = "Page 4.html">	Experience Hololens	</a></li>
-					<li><a href = "Page 5.html">	Get Hololens		</a></li>
+				<ul id="nav-list">
+					<li class="nav-sub">		<a href="Page 1.html" class="nav-link">	Hololens			</a></li>
+					<li class="nav-sub">		<a href="Page 2.html" class="nav-link">	Why Hololens		</a></li>
+					<li class="nav-sub active">	<a href="Page 3.html" class="nav-link">	Hardware			</a></li>
+					<li class="nav-sub">		<a href="Page 4.html" class="nav-link">	Software			</a></li>
+					<li class="nav-sub">		<a href="Page 5.html" class="nav-link">	Get Hololens		</a></li>
 				</ul>
 			</div>
 		</nav>
+		
+		<div id="main_container">
+			<h1 id="main_header"> Where Power meets Grace. </h1>
+			<h3> A perfect blend of the perfect hardware. </h3>
+			<img src="Resources\Images\Hololens\Trans.png" width="70%" class="main_image">
+		</div>
 
-		<!-- Page Content-->
+		<div class="carousel">
+			<input type="checkbox" class="faux-ui-facia"> 
+			<div class="slide" slide="3" annot="&#9679;&#9675;&#9675;">
+				<img src="Resources\Images\Hololens\Sensor.jpg" width="100%" class="tab-img">
+				<h1 class="tab-title"> Sensors </h1>
+				<br><br><br><br><br><br><br><br><br><br>
+				<h2 class="tab-text"> Advanced sensors work together to capture 	</h2>
+				<h2 class="tab-text"> your environment as well as your moment. 		</h2>
+				<h2 class="tab-text"> HoloLens knows what you're doing 				</h2>
+				<h2 class="tab-text"> and how to make it better.					</h2>
+			</div>
+
+			<input type="checkbox" class="faux-ui-facia"> 
+			<div class="slide" slide="2" annot="&#9675;&#9675;&#9679;">
+				<img src="Resources\Images\Hololens\Lens.jpg" width="100%" class="tab-img">
+				<h1 class="tab-title"> Optics </h1>
+				<br><br><br><br><br><br><br><br><br><br>
+				<h2 class="tab-text"> HoloLens uses a pair of transparent, HD 		</h2>
+				<h2 class="tab-text"> holographic lenses with an advanced optical	</h2>
+				<h2 class="tab-text"> projection system to generate realistic,		</h2>
+				<h2 class="tab-text"> 3 dimentional holograms.						</h2>
+			</div>
+
+			<input type="checkbox" class="faux-ui-facia"> 
+			<div class="slide" slide="1" annot="&#9675;&#9679;&#9675;">
+				<img src="Resources\Images\Hololens\Processor.jpg" width="100%" class="tab-img">
+				<h1 class="tab-title"> Processor </h1>
+				<br><br><br><br><br><br><br><br><br><br>
+				<h2 class="tab-text"> Custom Microsoft holographic prcessing unit	</h2>
+				<h2 class="tab-text"> that processes immense amounts of data 		</h2>
+				<h2 class="tab-text"> per second from All the sensors to get to		</h2>
+				<h2 class="tab-text"> know you and provide the best experience.		</h2>
+			</div>
+		</div>
+
+		<div id="overlay-container"> 
+			<img src="Resources\Images\Hololens\Sound.jpg" width="100%" id="overlay-image">
+			<span id="overlay-text">
+				<h1>In-built immersive sound system.</h1>
+				<h4>Native sound system that provides the true immersive experience. Using a model that characterizes how the human ear perceives audio, Hololens synthesizes sound so you can hear holograms from anywhere in the room.</h4>
+			</span>
+		</div>
+
+		<footer>
+			<div id="footer">
+				<h1>Microsoft Hololens - The next BIG thing.</h1>
+				<hr id="footer-rule">
+				<div id="footer-icon-holder">
+					<a href="https://www.reddit.com/">	<img src="Resources\Images\Footer Logos\r.png" class="footer-icon"></a>
+					<a href="https://www.facebook.com/"><img src="Resources\Images\Footer Logos\f.png" class="footer-icon"></a>
+					<a href="https://plus.google.com/">	<img src="Resources\Images\Footer Logos\g.png" class="footer-icon"></a>
+					<a href="https://twitter.com/">		<img src="Resources\Images\Footer Logos\t.png" class="footer-icon"></a>
+					<a href="https://www.youtube.com/">	<img src="Resources\Images\Footer Logos\y.png" class="footer-icon"></a>
+				</div>
+				<h3>&copy; Microsoft Corporation, 2017</h3>
+			</div>
+		</footer>
 	</body>
 </html>

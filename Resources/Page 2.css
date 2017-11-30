@@ -1,0 +1,41 @@
+#main_container {
+	color: #FFF !important;
+}
+
+#main_header {
+	font-size: 60px;
+	margin-bottom: 0;
+}
+
+#main_card_holder, #card_pair_holder {
+	background-color: #FFF;
+	background: -webkit-linear-gradient(#666, #FFF); 
+    background: -o-linear-gradient(#666, #FFF); 
+    background: -moz-linear-gradient(#666, #FFF);
+    background: linear-gradient(#666, #FFF); 
+	width: 100%;
+}
+
+.card {
+	background-color: #FFF;
+	display: inline-block;
+	width: 41.5%;
+	margin: 3%;
+	padding: 1%;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 20px 40px 0 rgba(0,0,0,0.5);
+}
+
+.card_img {
+	border-radius: 5px;
+	width: 100%;
+}
+
+.card_text {
+	margin: 2%;
+}
