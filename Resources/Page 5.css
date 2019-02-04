@@ -1,46 +1,46 @@
 #content {
-	padding-top: 5%;
-	color: #111;
-	background-color: #FFF;
-	text-align: center;
+    padding-top: 5%;
+    color: #111;
+    background-color: #FFF;
+    text-align: center;
 }
 
 #main_header {
-	font-size: 60px;
+    font-size: 60px;
 }
 
 .bar {
-	width: 80%;
-	border: none;
-	height: 1px;
-	color: #555555;
-	background-color: #555555;
+    width: 80%;
+    border: none;
+    height: 1px;
+    color: #555555;
+    background-color: #555555;
 }
 
 .header {
-	width: 30%;
-	text-align: right;
-	float: left;
+    width: 30%;
+    text-align: right;
+    float: left;
 }
 
 .head {
-	display: inline;
-	font-size: 60px !important;
-	color: #555;
-	margin-top: 10px;
-	text-align: right;
+    display: inline;
+    font-size: 60px !important;
+    color: #555;
+    margin-top: 10px;
+    text-align: right;
 }
 
 .spec {
-	font-size: 100%;
-	color: #111;
-	width: 60%;
-	float: right;
-	text-align: left;
+    font-size: 100%;
+    color: #111;
+    width: 60%;
+    float: right;
+    text-align: left;
 }
 
 #main_banner {
-	font-size: 80px;
-	color: #444;
-	margin-bottom: 2%;
+    font-size: 80px;
+    color: #444;
+    margin-bottom: 2%;
 }
