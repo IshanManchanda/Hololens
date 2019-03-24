@@ -65,66 +65,40 @@ a:active, a:hover {
     width: 90%;
 }
 
-nav {
-    z-index: 999;
-    width: 95%;
-    height: 8%;
-    min-height: 30px;
-    line-height: 350%;
-    border-bottom-right-radius: 20px;
+/* start nav */
+nav{
     position: fixed;
-    background-color: #EEEEEE;
-    box-shadow: 5px 15px 20px #696969;
+    width: 100%;
+    z-index: 1;
+    padding:10px;
+    background: #000;
 }
-
-#nav-wrapper {
-    position: relative;
-    height: 100%;
+.fa-bars{
+    display: none;
 }
-
-#nav-logo {
-    position: absolute;
-    color: #fff;
+#nav-wrapper{
+    float: right;
+    margin-right: 30px;
+    transition: 0.5s;
+}
+ul li {
     display: inline-block;
-    width: 17%;
-    padding: 0;
-    margin-top: 0.7%;
-    margin-left: 2%;
+    padding:0px 10px;
 }
+ul li a{
+    color:#fff;
+    font-size: 20px;
+    transition: 0.5s;
+}
+ul li a:hover{
+    color:#03A4EE;
+}
+.close-btn{
+    display:none;
+}
+/* end nav */
 
-#nav-list {
-    float: right !important;
-    margin: 0;
-}
 
-.nav-link {
-    display: block;
-    color: #5f5f5f;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1.5vw;
-    -webkit-transition: background-color .3s;
-    transition: background-color .3s;
-    padding: 0 10px;
-    cursor: pointer;
-}
-
-.nav-sub {
-    display: inline;
-    float: left;
-    font-family: sans-serif;
-    -webkit-transition: background-color .3s;
-            transition: background-color .3s;
-    padding: 0;
-}
-
-.nav-sub:hover {
-    background-color: rgba(0, 0, 0, 0.075);
-}
-
-.nav-sub.active {
-    background-color: rgba(0, 0, 0, 0.125);
-}
 
 .hoverable {
     -webkit-transition: -webkit-box-shadow .25s;
@@ -157,4 +131,51 @@ footer {
     width: 80%;
     margin-top: 3%;
     margin-bottom: 4%;  
+}
+
+@media(max-width:900px){
+    /* start navigation */
+    nav{
+        text-align: center;
+        z-index: 100;
+      
+    }
+    .fa-bars{
+        display: block;
+        cursor: pointer;
+    }
+    nav i{
+        float: left;
+    }
+    #nav-wrapper{
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 0%;
+     padding-top:50px;
+     background: #333;
+     height: 100%;
+     overflow-x: hidden;
+     
+    }
+    ul li {
+        display: block;
+        padding:20px;
+        text-align: center;
+    }
+    ul li a{
+        font-size: 25px;
+    }
+    .close-btn{
+        display: block;
+        font-size: 35px;
+        font-weight: bold;
+        position: absolute;
+        top:10px;
+        right: 20px;
+        cursor: pointer;
+    }
+
+    /* end of navigation */
+ 
 }
