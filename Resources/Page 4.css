@@ -28,7 +28,7 @@ body{
     grid-gap: 5px;
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
 }
-.picture-holder3  div{
+.picture-holder3  .card{
     background: #fff;
     color: #333;
     box-shadow: 0px 1px 5px rgba(104,104,104,0.8);

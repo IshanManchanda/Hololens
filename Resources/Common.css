@@ -87,7 +87,7 @@ ul li {
 }
 ul li a{
     color:#fff;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     transition: 0.5s;
 }
 ul li a:hover{
@@ -124,7 +124,7 @@ footer {
 
 }
 #footer-icon-holder a i{
-    margin:5px;
+    margin:15px;
     color:#fff;
 }
 
@@ -175,7 +175,7 @@ footer {
     }
     .close-btn{
         display: block;
-        font-size: 35px;
+        font-size: 30px;
         font-weight: bold;
         position: absolute;
         top:10px;

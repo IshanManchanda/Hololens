@@ -16,12 +16,15 @@
     width: 100%;
 }
 .card_pair_holder{
+    transition: 0.5s;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     grid-gap: 5%;
     width: 80%;
     margin: 0 auto;
     padding-bottom: 10px;
+    padding-top:50px;
+    margin-bottom: 50px;
 }
 .card {
     background-color: #FFF;
