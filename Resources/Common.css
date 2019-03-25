@@ -87,7 +87,7 @@ ul li {
 }
 ul li a{
     color:#fff;
-    font-size: 20px;
+    font-size: 1.5rem;
     transition: 0.5s;
 }
 ul li a:hover{
@@ -112,6 +112,8 @@ ul li a:hover{
         box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+
+
 footer {
     padding: 0.8%;
     color: #FFF;
@@ -119,12 +121,17 @@ footer {
 
 #footer-icon-holder {
     text-align: center;
+
+}
+#footer-icon-holder a i{
+    margin:5px;
+    color:#fff;
 }
 
 .footer-icon {
-    width: 2.5%;
+    /* width: 2.5%;
     margin: 0.6%;
-    margin-bottom: 0;
+    margin-bottom: 0; */
 }
 
 #footer-rule {

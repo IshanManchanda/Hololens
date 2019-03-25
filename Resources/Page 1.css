@@ -39,30 +39,22 @@
     letter-spacing: 1.5px;
     font-size: 30px;
 }
-
-/* .parallax_break {
-    color: #777;
-    background-color:white;
-    text-align:center;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    text-align: justify;
-}
-
-.icon_block {
-    display: inline-block;
-    padding-left: 2%;
-    padding-right: 2%;
-    margin-left: 2%;
-    margin-right: 2%;
-    width: 25%;
-    background-color: #EEE;
-    border-radius: 1px;
-}
+ .parallax_break{
+     background: #fff;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-gap: 10px;
+     padding:30px;
+     text-align: center;
+ }
+ .parallax_break  div{
+    padding:20px 0px;
+    box-shadow: 0px 1px 5px rgba(104,104,104,0.8);
+ }
 
 .material-icons {
     font-size: 36px;
-} */
+} 
 
 .pulse {
    
@@ -74,6 +66,25 @@
     cursor: pointer;
     background: #5a99d4;
     -webkit-animation: pulse 2s infinite; 
+}
+.parallax2{
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%; 
+    height: 500px;
+     /* left: -10%;  */
+    color:#fff;
+    position: relative;
+}
+.parallax_caption2{
+ text-align: center;
+ background: rgba(0, 0, 0, 0.8);
+ position: absolute;
+ top:30%;
+ width: 100%;   
 }
 
 @-webkit-keyframes pulse {
@@ -96,5 +107,8 @@
     }
     #hero_header{
         font-size: 3rem;
+    }
+    .parallax_break{
+        grid-template-columns: 1fr;
     }
 }
