@@ -9,19 +9,6 @@
     font-size: 60px;
 }
 
-.bar {
-    width: 80%;
-    border: none;
-    height: 1px;
-    color: #555555;
-    background-color: #555555;
-}
-
-.header {
-    width: 30%;
-    text-align: right;
-    float: left;
-}
 
 .head {
     display: inline;
@@ -31,16 +18,39 @@
     text-align: right;
 }
 
-.spec {
-    font-size: 100%;
-    color: #111;
-    width: 60%;
-    float: right;
-    text-align: left;
-}
+
 
 #main_banner {
     font-size: 80px;
     color: #444;
     margin-bottom: 2%;
+}
+
+#specs{
+    background: #fff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    align-items: center;
+    box-shadow: 0px 1px 5px rgba(104,104,104,0.8);
+    width: 100%;
+    margin: 20px;
+    padding:10px;
+    margin: 0 auto;
+}
+.header{
+    text-align: center;
+}
+.spec{
+    text-align: center;
+}
+.sale{
+    text-align: center;
+}
+.sale button{
+    padding:10px 40px;
+    font-size: 20px;
+    cursor: pointer;
+    background: #1C9CEA;
+    color:#fff;
+    border: none;
 }
