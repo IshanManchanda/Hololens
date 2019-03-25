@@ -1,29 +1,27 @@
 .parallax {
-    position: relative;
-    width: 110%;
+    width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100%;
-    left: -10%;
+    min-height: 100%; 
+    height: 500px;
+    color:#fff;
 }
 
 .parallax_caption {
-    position: absolute;
-    top: 20%;
-    width: 100%;
+
     text-align: center;
-    color: #FFF;
-    font-size: 25px;
-    left: -10%;
+    padding-top:50px;
+    font-size: 5px;
+    
 }
 
-
+ 
 #hero_header {
     letter-spacing: 3.5px;
-    font-size: 80px;
     margin-bottom: 1%;
+    font-size: 5rem;
 }
 
 #hero_description {
@@ -33,57 +31,76 @@
     letter-spacing: 1.5px;
     font-size: 30px;
 }
-
-.parallax_break {
-    color: #777;
-    background-color:white;
-    text-align:center;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    text-align: justify;
-}
-
-.icon_block {
-    display: inline-block;
-    padding-left: 2%;
-    padding-right: 2%;
-    margin-left: 2%;
-    margin-right: 2%;
-    width: 25%;
-    background-color: #EEE;
-    border-radius: 1px;
-}
+ .parallax_break{
+     background: #fff;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-gap: 10px;
+     padding:30px;
+     text-align: center;
+ }
+ .parallax_break  .icon_block{
+    padding:20px 0px;
+    box-shadow: 0px 1px 5px rgba(104,104,104,0.8);
+ }
 
 .material-icons {
     font-size: 36px;
-}
+} 
 
 .pulse {
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 60px;
-    height: 60px;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 75px;
+   
     border-radius: 50%;
-    background: #5a99d4;
-    cursor: pointer;
+    border:none;
     box-shadow: 0 0 0 0 rgba(90, 153, 212, 0.5);
-    -webkit-animation: pulse 1.6s infinite;
+    margin: 20px;
+    padding:20px;
+    cursor: pointer;
+    background: #5a99d4;
+    -webkit-animation: pulse 2s infinite; 
 }
-
+.parallax2{
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%; 
+    height: 500px;
+     /* left: -10%;  */
+    color:#fff;
+    position: relative;
+}
+.parallax_caption2{
+ text-align: center;
+ background: rgba(0, 0, 0, 0.8);
+ position: absolute;
+ top:30%;
+ width: 100%;   
+}
+.text-content{
+    padding:20px;
+}
 @-webkit-keyframes pulse {
     0% {
-        transform: scale(0.9);
+      
     }
     70% {
-        transform: scale(1.1);
         box-shadow: 0 0 0 40px rgba(90, 153, 212, 0);
     }
     100% {
-        transform: scale(0.9);
         box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
+    }
+}   
+
+@media(max-width:900px){
+    .parallax_caption{
+        padding-top:100px;
+    }
+    #hero_header{
+        font-size: 3rem;
+    }
+    .parallax_break{
+        grid-template-columns: 1fr;
     }
 }

@@ -15,13 +15,21 @@
     background: linear-gradient(#666, #FFF); 
     width: 100%;
 }
-
+.card_pair_holder{
+    transition: 0.5s;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap: 5%;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-top:50px;
+    margin-bottom: 50px;
+}
 .card {
     background-color: #FFF;
-    display: inline-block;
-    width: 41.5%;
-    margin: 3%;
-    padding: 1%;
+    margin-bottom: 20px;
+    border-radius: 8px;
     box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
     transition: 0.3s;
     border-radius: 10px;
@@ -31,11 +39,11 @@
     box-shadow: 0 20px 40px 0 rgba(0,0,0,0.5);
 }
 
-.card_img {
-    border-radius: 5px;
-    width: 100%;
-}
 
-.card_text {
-    margin: 2%;
+
+
+@media(max-width:900px){
+    .card_pair_holder{
+        grid-template-columns: 1fr;
+    }
 }
