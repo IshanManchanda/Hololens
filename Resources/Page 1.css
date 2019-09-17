@@ -4,7 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100%; 
+    min-height: 100%;
     height: 500px;
     color:#fff;
 }
@@ -14,10 +14,10 @@
     text-align: center;
     padding-top:50px;
     font-size: 5px;
-    
+
 }
 
- 
+
 #hero_header {
     letter-spacing: 3.5px;
     margin-bottom: 1%;
@@ -31,25 +31,25 @@
     letter-spacing: 1.5px;
     font-size: 30px;
 }
- .parallax_break{
-     background: #fff;
-     display: grid;
-     grid-template-columns: 1fr 1fr 1fr;
-     grid-gap: 10px;
-     padding:30px;
-     text-align: center;
- }
- .parallax_break  .icon_block{
+.parallax_break{
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding:30px;
+    text-align: center;
+}
+.parallax_break  .icon_block{
     padding:20px 0px;
     box-shadow: 0px 1px 5px rgba(104,104,104,0.8);
- }
+}
 
 .material-icons {
     font-size: 36px;
-} 
+}
 
 .pulse {
-   
+
     border-radius: 50%;
     border:none;
     box-shadow: 0 0 0 0 rgba(90, 153, 212, 0.5);
@@ -57,7 +57,7 @@
     padding:20px;
     cursor: pointer;
     background: #5a99d4;
-    -webkit-animation: pulse 2s infinite; 
+    -webkit-animation: pulse 2s infinite;
 }
 .parallax2{
     width: 100%;
@@ -65,25 +65,25 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100%; 
+    min-height: 100%;
     height: 500px;
-     /* left: -10%;  */
+    /* left: -10%;  */
     color:#fff;
     position: relative;
 }
 .parallax_caption2{
- text-align: center;
- background: rgba(0, 0, 0, 0.8);
- position: absolute;
- top:30%;
- width: 100%;   
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top:30%;
+    width: 100%;
 }
 .text-content{
     padding:20px;
 }
 @-webkit-keyframes pulse {
     0% {
-      
+
     }
     70% {
         box-shadow: 0 0 0 40px rgba(90, 153, 212, 0);
@@ -91,7 +91,7 @@
     100% {
         box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
     }
-}   
+}
 
 @media(max-width:900px){
     .parallax_caption{

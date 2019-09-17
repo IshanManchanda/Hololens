@@ -109,7 +109,7 @@ ul li a:hover{
 
 .hoverable:hover {
     -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -137,7 +137,7 @@ footer {
 #footer-rule {
     width: 80%;
     margin-top: 3%;
-    margin-bottom: 4%;  
+    margin-bottom: 4%;
 }
 
 @media(max-width:900px){
@@ -145,7 +145,7 @@ footer {
     nav{
         text-align: center;
         z-index: 100;
-      
+
     }
     .fa-bars{
         display: block;
@@ -155,15 +155,15 @@ footer {
         float: left;
     }
     #nav-wrapper{
-     position: fixed;
-     top: 0;
-     left: 0;
-     width: 0%;
-     padding-top:50px;
-     background: #333;
-     height: 100%;
-     overflow-x: hidden;
-     
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 0%;
+        padding-top:50px;
+        background: #333;
+        height: 100%;
+        overflow-x: hidden;
+
     }
     ul li {
         display: block;
@@ -184,8 +184,8 @@ footer {
     }
 
     /* end of navigation */
- 
+
 }
 @media(min-width:900px){
-   
+
 }

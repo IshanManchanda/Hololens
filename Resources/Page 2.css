@@ -9,10 +9,10 @@
 
 #main_card_holder, #card_pair_holder {
     background-color: #FFF;
-    background: -webkit-linear-gradient(#666, #FFF); 
-    background: -o-linear-gradient(#666, #FFF); 
+    background: -webkit-linear-gradient(#666, #FFF);
+    background: -o-linear-gradient(#666, #FFF);
     background: -moz-linear-gradient(#666, #FFF);
-    background: linear-gradient(#666, #FFF); 
+    background: linear-gradient(#666, #FFF);
     width: 100%;
 }
 .card_pair_holder{

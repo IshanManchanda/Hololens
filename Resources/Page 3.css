@@ -16,17 +16,17 @@
 #overlay-container {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-  
+
 }
 #overlay-image{
     padding:40px;
 }
 #overlay-text {
-   background: #fff;
-   color:#333;
-   padding:10px;
-   padding:30px;
-} 
+    background: #fff;
+    color:#333;
+    padding:10px;
+    padding:30px;
+}
 
 .carousel {
     background-color: #FFF;
@@ -43,7 +43,7 @@
 .carousel:hover .slide:after,
 .carousel:hover .counter,
 .carousel:hover .slide:before {
-  opacity: 1;
+    opacity: 1;
 }
 
 .tab-img {
